@@ -1,0 +1,13 @@
+.descricao {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+.descricao input {
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.atributos {
+    display: grid;
+    grid-template-columns: 90px 200px 90px 200px 90px 200px;
+}
