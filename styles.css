@@ -9,5 +9,5 @@
 
 .atributos {
     display: grid;
-    grid-template-columns: 90px 200px 90px 200px 90px 200px;
+    grid-template-columns: 90px 150px 90px 150px 90px 150px;
 }
