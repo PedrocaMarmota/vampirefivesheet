@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <title>Pagina 1 - Atributos</title>
+</head>
+<body>
+    <!-- Seção de informações -->
+    <img class="mainLogo" src="https://vignette.wikia.nocookie.net/whitewolf/images/7/78/VampireMasqueradeV5Logo.png/revision/latest?cb=20180729031145" width="30%" alt="vampire logo">
+    <nav class="navbar">
+        <ul class="navlist">
+            <li class="navitem">
+                <a href="./index.html">Home</a>
+            </li>
+            <li class="navitem">
+                <a href="./descricao.html">Descrição</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <form class="descricao">
+        <input type="text" name="nome" value="Nome:">
+        <input type="text" name="cronica" value="Conceito:">
+        <input type="text" name="predador" value="Predador:">
+        <input type="text" name="cronica" value="Crônica:">
+        <input type="text" name="ambicao" value="Ambição:">
+        <input type="text" name="clan" value="Clan:">
+        <input type="text" name="sire" value="Sire:">
+        <input type="text" name="desire" value="Desejo:">
+        <input type="text" name="geração" value="Geração:">
+    </form>
+    <h2>Atributos</h2>
+    <table class="table">
+        <tr>
+            <td width="270px">
+                <h4>Físico</h4> 
+            </td>
+            <td width="270px">
+                <h4>Social</h4>
+            </td>
+            <td width="270px">
+                <h4>Mental</h4>
+            </td>
+        </tr>
+    </table>
+    <!-- Seção de atributos -->
+    <form class="atributos">
+        <label for="str" class="checkbox">Força</label>
+             <input type="range" name="str" class="slider" min="0" max="5">                                                                                                                                                                                                                                                                                                           
+        <label for="chr">Carisma</label>
+            <input type="range" name="chr" class="slider" min="0" max="5">
+        <label for="int">Inteligencia</label>
+            <input type="range" name="int" class="slider" min="0" max="5">
+        <label for="dex">Destreza</label>
+            <input type="range" name="dex" class="slider" min="0" max="5">
+        <label for="mnp">Manipulação</label>
+            <input type="range" name="mnp" class="slider" min="0" max="5">
+        <label for="wts">Raciocinio</label>
+            <input type="range" name="wts" class="slider" min="0" max="5">
+        <label for="sta">Stamina</label>
+            <input type="range" name="sta" class="slider" min="0" max="5">
+        <label for="cmp">Compostura</label>
+            <input type="range" name="cmp" class="slider" min="0" max="5">
+        <label for="rsv">Determinação</label>
+            <input type="range" name="rsv" class="slider" min="0" max="5">
+    </form>
+    <table class="table">
+        <tr>
+            <td>
+                <label for="health">
+                    Pontos de vida
+                </label>
+                <input type="range" name="health" class="slider" min="0" max="10">
+            </td>
+            <td>
+                <label for="willpower">
+                    Força de Vontade
+                </label>
+                <input type="range" name="willpower" class="slider" min="0" max="10">
+            </td>
+        </tr>
+    </table>
+    <h2>Skiils</h2>
+        <form class="skills">
+            <label for="atl">Atlético</label>
+                <input type="range" name="atl" class="slider" min="0" max="5">
+            <label for="animal">Empatia c/ Animais</label>
+                <input type="range" name="animal" class="slider" min="0" max="5">
+            <label for="academics">Acadêmicos</label>
+                <input type="range" name="academics" class="slider" min="0" max="5">
+            <label for="brawl">Briga</label>
+                <input type="range" name="brawl" class="slider" min="0" max="5">
+            <label for="etiquette">Etiqueta</label>
+                <input type="range" name="etiquette" class="slider" min="0" max="5">
+            <label for="awareness">Percepção</label>
+                <input type="range" name="awareness" class="slider" min="0" max="5">
+            <label for="craft">Ofício</label>
+                <input type="range" name="craft" class="slider" min="0" max="5"> 
+            <label for="insight">Intuição</label>
+                <input type="range" name="insight" class="slider" min="0" max="5">
+            <label for="finance">Finanças</label>
+                <input type="range" name="finance" class="slider" min="0" max="5">
+            <label for="drive">Direção</label>
+                <input type="range" name="drive" class="slider" min="0" max="5">
+            <label for="intimidation">Intimidação</label>
+                <input type="range" name="intimidation" class="slider" min="0" max="5">
+            <label for="investigation">Investigação</label>
+                <input type="range" name="investigation" class="slider" min="0" max="5">
+            <label for="fire">Armas de Fogo</label>
+                <input type="range" name="fire" class="slider" min="0" max="5">
+            <label for="leadership">Liderança</label>
+                <input type="range" name="leadership" class="slider" min="0" max="5">
+            <label for="medicine">Medicina</label>
+                <input type="range" name="medicine" class="slider" min="0" max="5">
+            <label for="melee">Armas Brancas</label>
+                <input type="range" name="melee" class="slider" min="0" max="5">
+            <label for="performance">Performance</label>
+                <input type="range" name="performance" class="slider" min="0" max="5">
+            <label for="occult">Ocultismo</label>
+                <input type="range" name="occult" class="slider" min="0" max="5">
+            <label for="larceny">Furto</label>
+                <input type="range" name="larceny" class="slider" min="0" max="5">
+            <label for="persuasion">Persuasão</label>
+                <input type="range" name="persuasion" class="slider" min="0" max="5">
+            <label for="politics">Política</label>
+                <input type="range" name="politics" class="slider" min="0" max="5">
+            <label for="stealth">Furtividade</label>
+                <input type="range" name="stealth" class="slider" min="0" max="5">
+            <label for="streetwise">Manha</label>
+                <input type="range" name="streetwise" class="slider" min="0" max="5">
+            <label for="science">Ciência</label>
+                <input type="range" name="science" class="slider" min="0" max="5">
+            <label for="survival">Sobrevivência</label>
+                <input type="range" name="survival" class="slider" min="0" max="5">
+            <label for="subterfuge">Manipulação</label>
+                <input type="range" name="subterfuge" class="slider" min="0" max="5">
+            <label for="technology">Tecnologia</label>
+                <input type="range" name="technology" class="slider" min="0" max="5">
+        </form>
+        <h2>Disciplinas</h2>
+        <div class="disciplinas">
+                <input type="text" name="discpline">
+                <input type="range" name="dscpSlider" class="slider" min="0" max="5">
+                <input type="text" name="discpline">
+                <input type="range" name="dscpSlider" class="slider" min="0" max="5">
+                <input type="text" name="discpline">
+                <input type="range" name="dscpSlider" class="slider" min="0" max="5">
+                <input type="text" name="discpline">
+                <input type="range" name="dscpSlider" class="slider" min="0" max="5">
+                <input type="text" name="discpline">
+                <input type="range" name="dscpSlider" class="slider" min="0" max="5">
+                <input type="text" name="discpline">
+                <input type="range" name="dscpSlider" class="slider" min="0" max="5">
+            </form>
+        </div>
+        <footer>
+            <label for="resonance">Resonancia</label>
+            <input type="text" name="resonance">
+            <label for="hunger">Fome</label>
+            <input type="range" name="hunger" class="slider" min="0" max="5">
+            <label for="humanity">Humanidade</label>
+            <input type="range" name="humanity" class="slider" min="0" max="10">
+        </footer>
+</body>
+</html>
