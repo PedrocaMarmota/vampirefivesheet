@@ -5,7 +5,7 @@ body {
     background-color: #636363;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     margin: 0;
     padding: 0;
 }
@@ -16,8 +16,13 @@ body {
     margin-right: auto;
 }
 
+p {
+    padding: 10px; 
+}
+
 a {
     color: currentColor;
+    text-decoration: none;
 }
 
 .descricao {
@@ -38,7 +43,7 @@ a {
 }
 
 .logoHome {
-    margin-top: 25px;
+    margin: 25px;
 }
 
 .navbar {
@@ -46,6 +51,7 @@ a {
     background: #710c04;
     border-radius: 25%;
     width: 200px;
+    margin: 50px;
 }
 
 .navbarhome {
@@ -57,27 +63,38 @@ a {
 header {
     background-color: #c1c7c9;
     clip-path: polygon(50% 0, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
-    padding: 1.5em;
+    padding: 33px;
     height: 500px;
+}
+
+textarea  {
+    background-color: #c1c7c9;
 }
 
 .navlisthome {
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
+.navitemhome {
+    color: #c1c7c9;
+}
+
 .navlist {
     list-style: none;
     width: 120px;
+    display: flex;
+    flex-direction: column;
 }
 
 .navitem {
-    padding: 5px;
+    padding: 10px;
+    color: #c1c7c9;
 }
 
 .atributos {
