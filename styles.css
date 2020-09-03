@@ -61,7 +61,7 @@ a {
 }
 
 header {
-    background-color: #c1c7c9;
+    background-image: linear-gradient(to right, #c1c7c9, #7f7f7f);
     clip-path: polygon(50% 0, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
     padding: 33px;
     height: 500px;
